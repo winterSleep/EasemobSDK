@@ -6,9 +6,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/winterSleep/EasemobSDK/tree/2.0.6'
   spec.author       = 'EaseMob Inc.'
   spec.source       =  :git => 'https://github.com/winterSleep/EasemobSDK.git', :tag => '2.0.6'
-  spec.source_files = 'EaseMobSDK/include/*', 'EaseMobSDK/lib/*'
+  spec.source_files = '**'
   spec.platform     = :ios, '6.0'
   spec.requires_arc = true
-  spec.resources    = 'EaseMobSDK/resources/*'
+  spec.resources    = '**'
   spec.frameworks = 'Foundation', 'UIKit', 'MapKit', 'ImageIO', 'CoreLocation', 'Security', 'MobileCoreServices',  'SystemConfiguration', 'libiconv', 'AddressBook', 'CFNetwork', 'CoreGraphics', 'libxml2', 'libz', 'libresolv', 'libstdc++', 
 end
